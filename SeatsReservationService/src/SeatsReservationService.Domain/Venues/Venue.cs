@@ -9,9 +9,9 @@ namespace SeatsReservationService.Domain.Venues
 
         private List<Guid> _eventIds = [];
 
-        public Guid Id { get; }
+        public VenueId Id { get; }
 
-        public string? Name { get; private set; }
+        public VenueName Name { get; private set; }
 
         public IReadOnlyList<Seat> Seats => _seats;
 
@@ -21,7 +21,12 @@ namespace SeatsReservationService.Domain.Venues
 
         public int SeatsCount => _seats.Count;
 
-        public Venue(Guid id, string name, IEnumerable<Seat> seats, int seatsLimit)
+        // EF Core
+        private Venue()
+        {
+        }
+
+        public Venue(VenueId id, VenueName name, IEnumerable<Seat> seats, int seatsLimit)
         {
             Id = id;
             Name = name;

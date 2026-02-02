@@ -1,4 +1,7 @@
 ﻿using CSharpFunctionalExtensions;
+using SeatsReservationService.Domain.Events;
+using SeatsReservationService.Domain.Venues;
+using System.Text.Json.Serialization;
 
 namespace SeatsReservationService.Domain.Reservations
 {
@@ -6,19 +9,25 @@ namespace SeatsReservationService.Domain.Reservations
     {
         private List<ReservationSeat> _reservedSeats;
 
-        public Guid Id { get; }
+        public ReservationId Id { get; }
 
-        public Guid EventId { get; private set; }
+        public EventId EventId { get; private set; }
 
         public Guid UserId { get; private set; }
 
+        [JsonConverter(typeof(JsonStringEnumConverter))]
         public ReservationStatus Status { get; private set; }
 
         public DateTime CreatedAt { get; init; }
 
         public IReadOnlyList<ReservationSeat> ReservedSeats => _reservedSeats;
 
-        public Reservation(Guid id, Guid userId, Guid eventId, IEnumerable<Guid> seatIds)
+        // EF Core
+        private Reservation()
+        {
+        }
+
+        public Reservation(ReservationId id, Guid userId, EventId eventId, IEnumerable<SeatId> seatIds)
         {
             Id = id;
             UserId = userId;
@@ -27,7 +36,7 @@ namespace SeatsReservationService.Domain.Reservations
             CreatedAt = DateTime.UtcNow;
 
             List<ReservationSeat> reservedSeats = seatIds
-                .Select(id => new ReservationSeat(Guid.NewGuid(), this, id))
+                .Select(id => new ReservationSeat(new ReservationSeatId(Guid.NewGuid()), this, id))
                 .ToList();
 
             _reservedSeats = reservedSeats;

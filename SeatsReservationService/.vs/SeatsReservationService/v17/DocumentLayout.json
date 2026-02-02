@@ -7,16 +7,72 @@
       "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\reservations\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\venues\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\venues\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.infrastructure.postgresql\\configurations\\reservationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|solutionrelative:src\\seatsreservationservice.infrastructure.postgresql\\configurations\\reservationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.infrastructure.postgresql\\configurations\\reservationseatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|solutionrelative:src\\seatsreservationservice.infrastructure.postgresql\\configurations\\reservationseatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\reservations\\reservationseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\reservations\\reservationseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\events\\eventdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\events\\eventdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\reservations\\reservationseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\reservations\\reservationseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.infrastructure.postgresql\\configurations\\eventdetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|solutionrelative:src\\seatsreservationservice.infrastructure.postgresql\\configurations\\eventdetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.infrastructure.postgresql\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|solutionrelative:src\\seatsreservationservice.infrastructure.postgresql\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.infrastructure.postgresql\\configurations\\seatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|solutionrelative:src\\seatsreservationservice.infrastructure.postgresql\\configurations\\seatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.infrastructure.postgresql\\configurations\\venueconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68178E26-B20E-4100-BAB3-699EB2D15155}|src\\SeatsReservationService.Infrastructure.PostgreSql\\SeatsReservationService.Infrastructure.PostgreSql.csproj|solutionrelative:src\\seatsreservationservice.infrastructure.postgresql\\configurations\\venueconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\venues\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\venues\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\venues\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\venues\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\events\\eventid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\events\\eventid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\reservations\\reservationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\reservations\\reservationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\reservations\\reservationseatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\reservations\\reservationseatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.domain\\venues\\venueid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18677DF4-B01C-6258-8769-D6236DCBA600}|src\\SeatsReservationService.Domain\\SeatsReservationService.Domain.csproj|solutionrelative:src\\seatsreservationservice.domain\\venues\\venueid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90306E-841D-4BAA-A091-4A2C72A16B13}|src\\SeatsReservationService.Application\\SeatsReservationService.Application.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.application\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B90306E-841D-4BAA-A091-4A2C72A16B13}|src\\SeatsReservationService.Application\\SeatsReservationService.Application.csproj|solutionrelative:src\\seatsreservationservice.application\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90306E-841D-4BAA-A091-4A2C72A16B13}|src\\SeatsReservationService.Application\\SeatsReservationService.Application.csproj|d:\\acp.net\\seatsreservation_educationservice\\seatsreservationservice\\src\\seatsreservationservice.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90306E-841D-4BAA-A091-4A2C72A16B13}|src\\SeatsReservationService.Application\\SeatsReservationService.Application.csproj|solutionrelative:src\\seatsreservationservice.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,46 +81,202 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 196,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Seat.cs",
-              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
-              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
-              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
-              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EventDetailsConfiguration.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventDetailsConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventDetailsConfiguration.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventDetailsConfiguration.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventDetailsConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T15:27:05.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
-              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
-              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
-              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T15:26:58.688Z",
+              "WhenOpened": "2026-02-01T15:06:21.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ReservationSeatConfiguration.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationSeatConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationSeatConfiguration.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationSeatConfiguration.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationSeatConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T15:11:09.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SeatConfiguration.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\SeatConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\SeatConfiguration.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\SeatConfiguration.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\SeatConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:49:00.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventConfiguration.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventConfiguration.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventConfiguration.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\EventConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T15:03:36.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationConfiguration.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationConfiguration.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationConfiguration.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\ReservationConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T15:02:18.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VenueConfiguration.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\VenueConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\VenueConfiguration.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\VenueConfiguration.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Infrastructure.PostgreSql\\Configurations\\VenueConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T13:21:51.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventId.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Events\\EventId.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Events\\EventId.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Events\\EventId.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Events\\EventId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T15:04:32.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservationId.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\ReservationId.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Reservations\\ReservationId.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\ReservationId.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Reservations\\ReservationId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:57:55.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReservationSeatId.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\ReservationSeatId.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Reservations\\ReservationSeatId.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\ReservationSeatId.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Reservations\\ReservationSeatId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T15:07:48.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VenueId.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\VenueId.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Venues\\VenueId.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\VenueId.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Venues\\VenueId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:34:07.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Application\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Application\\appsettings.Development.json",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Application\\appsettings.Development.json",
+              "RelativeToolTip": "src\\SeatsReservationService.Application\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T14:13:01.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Application\\Program.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Application\\Program.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Application\\Program.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Application\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:09:10.461Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\Venue.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Venues\\Venue.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\Venue.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Venues\\Venue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:33:53.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Events\\Event.cs",
               "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Events\\Event.cs",
               "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Events\\Event.cs",
               "RelativeToolTip": "src\\SeatsReservationService.Domain\\Events\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T15:26:55.032Z",
+              "WhenOpened": "2026-02-01T14:36:51.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventDetails.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Events\\EventDetails.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Events\\EventDetails.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Events\\EventDetails.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Events\\EventDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T15:06:47.387Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +287,35 @@
               "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Reservations\\ReservationSeat.cs",
               "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\ReservationSeat.cs",
               "RelativeToolTip": "src\\SeatsReservationService.Domain\\Reservations\\ReservationSeat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T05:53:09.596Z",
+              "WhenOpened": "2026-02-01T14:59:11.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Reservations\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:36:34.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
+              "RelativeDocumentMoniker": "src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
+              "ToolTip": "D:\\ACP.Net\\SeatsReservation_EducationService\\SeatsReservationService\\src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
+              "RelativeToolTip": "src\\SeatsReservationService.Domain\\Venues\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T14:35:51.751Z",
               "EditorCaption": ""
             }
           ]

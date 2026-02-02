@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatsReservationService.Domain", "src\SeatsReservationService.Domain\SeatsReservationService.Domain.csproj", "{18677DF4-B01C-6258-8769-D6236DCBA600}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatsReservationService.Application", "src\SeatsReservationService.Application\SeatsReservationService.Application.csproj", "{6B90306E-841D-4BAA-A091-4A2C72A16B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatsReservationService.Infrastructure.PostgreSql", "src\SeatsReservationService.Infrastructure.PostgreSql\SeatsReservationService.Infrastructure.PostgreSql.csproj", "{68178E26-B20E-4100-BAB3-699EB2D15155}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{18677DF4-B01C-6258-8769-D6236DCBA600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18677DF4-B01C-6258-8769-D6236DCBA600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18677DF4-B01C-6258-8769-D6236DCBA600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B90306E-841D-4BAA-A091-4A2C72A16B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B90306E-841D-4BAA-A091-4A2C72A16B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B90306E-841D-4BAA-A091-4A2C72A16B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B90306E-841D-4BAA-A091-4A2C72A16B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68178E26-B20E-4100-BAB3-699EB2D15155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68178E26-B20E-4100-BAB3-699EB2D15155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68178E26-B20E-4100-BAB3-699EB2D15155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68178E26-B20E-4100-BAB3-699EB2D15155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

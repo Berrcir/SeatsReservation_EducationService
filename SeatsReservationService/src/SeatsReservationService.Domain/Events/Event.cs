@@ -1,10 +1,12 @@
-﻿namespace SeatsReservationService.Domain.Events
+﻿using SeatsReservationService.Domain.Venues;
+
+namespace SeatsReservationService.Domain.Events
 {
     public class Event
     {
-        public Guid Id { get; private set; }
+        public EventId Id { get; }
 
-        public Guid VenueId { get; private set; }
+        public VenueId VenueId { get; private set; }
 
         public string Name { get; private set; }
 
@@ -12,7 +14,12 @@
 
         public EventDetails Details { get; private set; }
 
-        public Event(Guid id, Guid venueId, string name, DateTime date, EventDetails details)
+        // EF Core
+        private Event()
+        {
+        }
+
+        public Event(EventId id, VenueId venueId, string name, DateTime date, EventDetails details)
         {
             Id = id;
             VenueId = venueId;
