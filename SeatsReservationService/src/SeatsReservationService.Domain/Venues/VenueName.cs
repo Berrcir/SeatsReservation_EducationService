@@ -1,6 +1,7 @@
 ﻿using CSharpFunctionalExtensions;
 using SeatsReservationService.Domain.Constants;
 using Shared;
+using System.Diagnostics.CodeAnalysis;
 
 namespace SeatsReservationService.Domain.Venues
 {
@@ -10,7 +11,14 @@ namespace SeatsReservationService.Domain.Venues
 
         public required string Name { get; init; }
 
-        public UnitResult<Error> Create(string prefix, string name)
+        [SetsRequiredMembers]
+        private VenueName(string prefix, string name)
+        {
+            Prefix = prefix;
+            Name = name;
+        }
+
+        public static Result<VenueName, Error> Create(string prefix, string name)
         {
             if (String.IsNullOrWhiteSpace(prefix))
             {
@@ -32,7 +40,7 @@ namespace SeatsReservationService.Domain.Venues
                 return Error.Validation("venue.name", "Venue name is too long", nameof(VenueName.Name));
             }
 
-            return UnitResult.Success<Error>();
+            return new VenueName(prefix, name);
         }
 
         public override string ToString()
