@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SeatsReservationService.Application.Venues;
 using SeatsReservationService.Contracts.Venues;
 
@@ -23,6 +22,38 @@ namespace SeatsReservationService.Web.Controllers
             }
 
             return Ok(result.Value);
+        }
+        
+        [HttpPatch]
+        public async Task<IActionResult> UpdateVenueName(
+            [FromServices] UpdateVenueNameHandler handler,
+            [FromBody] UpdateVenueNameRequest request,
+            CancellationToken cancellationToken)
+        {
+            var result = await handler.Handle(request, cancellationToken);
+
+            if (result.IsFailure)
+            {
+                return BadRequest(result.Error);
+            }
+
+            return Ok(result.Value);
+        }
+
+        [HttpPatch]
+        public async Task<IActionResult> UpdateVenueSeats(
+            [FromServices] UpdateVenueSeatsHandler handler,
+            [FromBody] UpdateVenueSeatsRequest request,
+            CancellationToken cancellationToken)
+        {
+            var result = await handler.Handle(request, cancellationToken);
+
+            if (result.IsFailure)
+            {
+                return BadRequest(result.Error);
+            }
+
+            return Ok(result);
         }
     }
 }

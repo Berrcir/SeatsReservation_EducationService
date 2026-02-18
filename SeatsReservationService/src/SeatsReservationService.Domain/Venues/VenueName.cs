@@ -18,6 +18,21 @@ namespace SeatsReservationService.Domain.Venues
             Name = name;
         }
 
+        public static Result<VenueName, Error> CreateWithoutPrefix(string name)
+        {
+            if (String.IsNullOrWhiteSpace(name))
+            {
+                return Error.Validation("venue.name", "Name cannot be empty or whitespace", nameof(VenueName.Name));
+            }
+
+            if (name.Length > LengthConstants.LENGTH_500)
+            {
+                return Error.Validation("venue.name", "Venue name is too long", nameof(VenueName.Name));
+            }
+
+            return new VenueName(String.Empty, name);
+        }
+
         public static Result<VenueName, Error> Create(string prefix, string name)
         {
             if (String.IsNullOrWhiteSpace(prefix))

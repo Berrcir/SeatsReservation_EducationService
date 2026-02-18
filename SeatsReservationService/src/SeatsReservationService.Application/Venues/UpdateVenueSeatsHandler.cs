@@ -6,22 +6,22 @@ using Shared;
 
 namespace SeatsReservationService.Application.Venues
 {
-    public class CreateVenueHandler
+    public class UpdateVenueSeatsHandler
     {
         private readonly IVenuesRepository _venuesRepository;
         private readonly ITransactionManager _transactionManager;
 
-        public CreateVenueHandler(IVenuesRepository venuesRepository, ITransactionManager transactionManager)
+        public UpdateVenueSeatsHandler(IVenuesRepository venuesRepository, ITransactionManager transactionManager)
         {
             _venuesRepository = venuesRepository;
             _transactionManager = transactionManager;
         }
 
         /// <summary>
-        /// Метод создает площадку со всеми местами
+        /// Метод обновляет места на площадке
         /// </summary>
         /// <returns></returns>
-        public async Task<Result<Guid, Error>> Handle(CreateVenueRequest request, CancellationToken cancellationToken)
+        public async Task<UnitResult<Error>> Handle(UpdateVenueSeatsRequest request, CancellationToken cancellationToken)
         {
             var transactionScopeResult = await _transactionManager.BeginTransactionAsync(cancellationToken);
 
@@ -37,9 +37,21 @@ namespace SeatsReservationService.Application.Venues
 
             // Бизнес валидация
 
-            // var seats = request.Seats.Select(s => Seat.Create(s.RowNumber, s.SeatNumber).Value); // Этот способ не подходит, потому что мы при создании должны проверить результат создания. Так делать мсожно если работаем через throw
+            var venueId = new VenueId(request.VenueId);
 
-            List<Seat> seats = [];
+            var venueResult = await _venuesRepository.GetByIdAsync(venueId, cancellationToken);
+
+            if (venueResult.IsFailure)
+            {
+                transactionScope.Rollback();
+                return venueResult.Error;
+            }
+
+            await _venuesRepository.DeleteSeatsByVenueIdAsync(venueId, cancellationToken);
+
+            var venue = venueResult.Value;
+
+            List<Seat> seats = new();
 
             foreach (CreateSeatRequest seatRequest in request.Seats)
             {
@@ -54,17 +66,15 @@ namespace SeatsReservationService.Application.Venues
                 seats.Add(seatResult.Value);
             }
 
-            var venueResult = Venue.Create(request.Prefix, request.Name, request.SeatsLimit, seats);
+            venue.UpdateSeats(seats);
 
-            if (venueResult.IsFailure)
+            var saveChangesResult = await _transactionManager.SaveChangesAsync(cancellationToken);
+
+            if (saveChangesResult.IsFailure)
             {
                 transactionScope.Rollback();
-                return venueResult.Error;
+                return saveChangesResult.Error;
             }
-
-            await _venuesRepository.Venues.AddAsync(venueResult.Value, cancellationToken);
-            
-            await _transactionManager.SaveChangesAsync(cancellationToken);
 
             var commitResult = transactionScope.Commit();
 
@@ -74,7 +84,7 @@ namespace SeatsReservationService.Application.Venues
                 return commitResult.Error;
             }
 
-            return venueResult.Value.Id.Value;
-        }        
+            return UnitResult.Success<Error>();
+        }
     }
 }

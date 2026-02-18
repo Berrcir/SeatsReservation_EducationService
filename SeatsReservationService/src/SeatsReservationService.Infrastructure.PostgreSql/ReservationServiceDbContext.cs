@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CSharpFunctionalExtensions;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SeatsReservationService.Application.DataBase;
+using SeatsReservationService.Domain.Reservations;
 using SeatsReservationService.Domain.Venues;
 using SeatsReservationService.Infrastructure.PostgreSql.Configurations;
 
@@ -10,7 +12,11 @@ namespace SeatsReservationService.Infrastructure.PostgreSql
     {
         private readonly string _connectionString;
 
+        public DbSet<Reservation> Reservations => Set<Reservation>();
+
         public DbSet<Venue> Venues => Set<Venue>();
+
+        public DbSet<Seat> Seats => Set<Seat>();
 
         public ReservationServiceDbContext(string connectionString)
         {
@@ -34,10 +40,5 @@ namespace SeatsReservationService.Infrastructure.PostgreSql
 
         private ILoggerFactory CreateLoggerFactory() =>
             LoggerFactory.Create(builder => { builder.AddConsole(); });
-
-        //public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
-        //{
-        //    return await SaveChangesAsync(cancellationToken);
-        //}
     }
 }

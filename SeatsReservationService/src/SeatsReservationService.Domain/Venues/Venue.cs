@@ -76,5 +76,26 @@ namespace SeatsReservationService.Domain.Venues
         }
 
         public void ChangeSeatsLimit(int newSeatsLimit) => SeatsLimit = newSeatsLimit;
+
+        public UnitResult<Error> UpdateNameWithoutPrefix(string name)
+        {
+            var newVenueNameResult = VenueName.Create(Name.Prefix, name);
+
+            if (newVenueNameResult.IsFailure)
+            {
+                return newVenueNameResult.Error;
+            }
+
+            Name = newVenueNameResult.Value;
+
+            return UnitResult.Success<Error>();
+        }
+
+        public UnitResult<Error> UpdateSeats(IEnumerable<Seat> seats)
+        {
+            _seats = seats.ToList();
+
+            return UnitResult.Success<Error>();
+        }
     }
 }

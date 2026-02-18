@@ -12,6 +12,8 @@ namespace SeatsReservationService.Domain.Events
 
         public DateTime Date { get; private set; }
 
+        public EventStatus Status { get; private set; }
+
         public EventDetails Details { get; private set; }
 
         // EF Core
@@ -25,7 +27,10 @@ namespace SeatsReservationService.Domain.Events
             VenueId = venueId;
             Name = name;
             Date = date;
+            Status = EventStatus.Planned;
             Details = details;
         }
+
+        public bool IsAvailableForReservation(DateTime reservingDateTime) => Status == EventStatus.Planned && Date < reservingDateTime;
     }
 }
